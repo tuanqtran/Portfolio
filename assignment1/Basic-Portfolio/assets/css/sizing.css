@@ -1,0 +1,402 @@
+/*
+================================================
+================================================
+
+		    	 Start of 980px.
+
+================================================
+================================================
+*/
+@media screen and (max-width:980px){
+	.topbar, .topborderbar, .midbar, .copyrightbar{
+		width: 100%;
+	}
+
+	.top-line, .container, .copyright{
+		width: 80%;
+	}
+
+	.about-me-box{
+		width: 50%;
+	}
+
+	.about-me-box p {
+		line-height: 200%;
+	}
+
+	.profile-pic{
+		width:100%;
+		height: 100%;
+		margin-bottom: 10px;
+	}
+
+	.connect-box{
+		width: 33%;
+	}
+
+	.connect-img-box{
+		width:100%;
+		height:100%;
+		margin: auto;
+	}
+	
+	.imgc1, .imgc2, .imgc3{
+		width: 33.3%;
+		float: left;
+	}
+	.imgc1 img, .imgc2 img, .imgc3 img{
+		margin-top:5px;
+		padding: 5px;
+		width: 100%;
+		height: 100%;
+	}
+
+/*
+================================================
+     Contact textarea adjustment for 980px.
+================================================
+*/
+	.textarea980{
+	 width: 100%;
+	 height: 50%;
+	}
+
+/*
+================================================
+		Portfolio adjustments for 980px.
+================================================
+*/
+	.portfolio-box{
+		width:52%;
+	}
+
+	.portfolio-box img{
+		width: 100%;
+		height: 100%;
+	}
+/*
+	position: absolute;
+	background: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 90px;
+	width: 100%;
+	text-align: center;
+	opacity: .75;
+	*/
+	.portfolio-p{
+		position: absolute;
+		right: 25px;
+		bottom: 10px;
+	}
+	
+	.portfolio-box p{
+		/*margin: auto;*/
+	}
+
+	.img1{
+		position: relative;
+		float: left;
+		right: 25px;
+	}
+
+	.insideimg1{
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+
+	.portfolio-p2{
+		position: absolute;
+		right: 25px;
+		bottom: 50px;
+	}
+
+	.img2{
+		position: relative;
+		float: right;
+		right: 25px;
+	}
+
+	.insideimg2{
+		width:100%;
+		height: 100%;
+		margin-top: 40px;
+		position: relative;
+		left: 25px;
+	}
+
+	.portfolio-p3{
+		position: absolute;
+		right: 25px;
+		bottom: 50px;
+	}
+
+	.img3{
+		position: relative;
+		float: left;
+		right: 25px;
+	}
+
+	.insideimg3{
+		width:100%;
+		height: 100%;
+		position: relative;
+		left: 25px;
+	}	
+
+	.portfolio-p4{
+		position: absolute;
+		right: 25px;
+		bottom: 50px;
+	}
+
+	.img4{
+		position: relative;
+		float: right;
+		right: 25px;
+	}
+
+	.insideimg4{
+		width:100%;
+		height: 100%;
+		position: relative;
+		left: 25px;
+	}	
+
+	.portfolio-p5{
+		position: absolute;
+		right: 25px;
+		bottom: 50px;
+	}
+
+	.img5{
+		position: relative;
+		float: left;
+		right: 25px;
+	}
+
+	.insideimg5{
+		width:100%;
+		height: 100%;
+		position: relative;
+		left: 25px;
+	}	
+}
+
+/*
+================================================
+================================================
+
+		    	 End of 980px.
+
+================================================
+================================================
+
+***    ***    ***              ***    ***    ***
+
+================================================
+================================================
+
+		    	 Start of 768px.
+
+================================================
+================================================
+*/
+
+@media screen and (max-width: 768px){
+	.topbar, .topborderbar, .midbar, .copyrightbar{
+		width: 100%;
+	}
+
+	.top-line, .container, .copyright{
+		width: 95%;
+		margin: auto;
+	}
+
+	.about-me-box{
+		width: 95%;
+	}
+
+	.about-me-box p {
+		line-height: 200%;
+	}
+
+	.profile-pic{
+		width: 50%;
+		height: 50%;
+		margin-bottom: 10px;
+	}
+
+	.connect-box{
+		width: 95%;
+		float: left;
+		margin-top: 50px;
+	}
+
+	.connect-header{
+		float:left
+		width:100%;
+		text-align: left;
+	}
+
+	.imgc1, .imgc2, .imgc3{
+		width: 100px;
+		height: 100px;
+		float: left;
+	}
+
+	.imgc1 img, .imgc2 img, .imgc3 img{
+		padding-left: 0;
+	}
+
+/*
+================================================
+		Portfolio adjustments for 786px.
+================================================
+*/
+	.portfolio-box{
+		width:95%;
+	}
+
+	.insideimg1{
+		width: 47%;
+		height: 150px;
+		float:left;
+		position: relative;
+	}
+
+	.insideimg2{
+		width: 47%;
+		height: 150px;
+		top: -30px;
+		float: right;
+		position: relative;
+	}
+
+	.insideimg3{
+		width: 47%;
+		height: 150px;
+		margin-top: 125px;
+		float:left;
+		position: relative;
+	}
+
+	.insideimg4{
+		width: 47%;
+		height: 150px;
+		margin-top: 85px;
+		float:right;
+		position: relative;
+	}
+
+	.insideimg5{
+		width: 47%;
+		height: 150px;
+		margin-top: 125px;
+		float:left;
+		position: relative;
+	}
+
+/*
+================================================
+================================================
+
+		    	 End of 768px.
+
+================================================
+================================================
+
+***    ***    ***              ***    ***    ***
+
+================================================
+================================================
+
+		    	 Start of 640px.
+
+================================================
+================================================
+*/
+
+
+}
+
+@media screen and (max-width: 640px){
+	.topborderbar, .copyrightbar{
+		width: 100%;
+	}
+
+	.topbar header{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.midbar{
+		float:left;
+		width: 100%;
+	}
+	.about-me-box{
+		width: 100%;
+	}
+
+	.about-me-box p {
+		line-height: 200%;
+	}
+
+	.topbar{
+		width: 70%;
+		height: 80%;
+		background: black;
+		padding: 0;
+		margin: 0;
+	} 
+	.name{
+		width: 70%;
+		padding: 0;
+		margin: auto;
+		text-align: center;
+		position: static;
+	}
+
+	.about-tab{
+		width: 27%;
+		background: blue;
+		text-align: center;
+		float:right;
+		position: static;
+	}
+	.contact-tab{
+		width: 27%;
+		background: red;
+		text-align: center;
+		float:right;
+		position: static;
+	}
+
+	.portfolio-tab{
+		width: 33%;
+		background: green;
+		text-align: center;
+		float:right;
+		position: static;
+	}
+
+	.topborderbar{
+		width: 100%;
+	}
+
+	.profile-pic{
+		width:100%;
+	}
+
+	.imgc1, .imgc2, .imgc3{
+		width: 50px;
+		height: 50px;
+		float: left;
+	}
+
+	.imgc1 img, .imgc2 img, .imgc3 img{
+		padding-left: 0;
+	}
+
+}
