@@ -7,7 +7,7 @@
 ================================================
 ================================================
 */
-@media screen and (max-width:980px){
+@media screen and (min-width:769px) and (max-width:980px){
 	.topbar, .topborderbar, .midbar, .copyrightbar{
 		width: 100%;
 	}
@@ -45,10 +45,10 @@
 		float: left;
 	}
 	.imgc1 img, .imgc2 img, .imgc3 img{
-		margin-top:5px;
-		padding: 5px;
 		width: 100%;
 		height: 100%;
+		margin-top:5px;
+		padding: 5px;
 	}
 
 /*
@@ -67,36 +67,23 @@
 ================================================
 */
 	.portfolio-box{
-		width:52%;
+		width:300px;
 	}
 
 	.portfolio-box img{
 		width: 100%;
 		height: 100%;
 	}
-/*
-	position: absolute;
-	background: #4aaaa5;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	top: 90px;
-	width: 100%;
-	text-align: center;
-	opacity: .75;
-	*/
-	.portfolio-p{
-		position: absolute;
+
+	.img1, .img3, .img5{
+		float: left;
+		position: relative;
 		right: 25px;
-		bottom: 10px;
-	}
-	
-	.portfolio-box p{
-		/*margin: auto;*/
 	}
 
-	.img1{
+	.img2, .img4{
+		float: right;
 		position: relative;
-		float: left;
 		right: 25px;
 	}
 
@@ -106,82 +93,26 @@
 		position: relative;
 	}
 
-	.portfolio-p2{
-		position: absolute;
-		right: 25px;
-		bottom: 50px;
-	}
-
-	.img2{
-		position: relative;
-		float: right;
-		right: 25px;
-	}
 
 	.insideimg2{
-		width:100%;
-		height: 100%;
 		margin-top: 40px;
-		position: relative;
-		left: 25px;
 	}
 
-	.portfolio-p3{
-		position: absolute;
-		right: 25px;
-		bottom: 50px;
-	}
 
-	.img3{
-		position: relative;
-		float: left;
-		right: 25px;
-	}
-
-	.insideimg3{
+	.insideimg2, .insideimg3, .insideimg4, .insideimg5{
 		width:100%;
 		height: 100%;
 		position: relative;
 		left: 25px;
 	}	
 
-	.portfolio-p4{
+
+	.p-sizing{
+		height: 20px;
 		position: absolute;
-		right: 25px;
-		bottom: 50px;
-	}
-
-	.img4{
-		position: relative;
-		float: right;
+		top: 150px;
 		right: 25px;
 	}
-
-	.insideimg4{
-		width:100%;
-		height: 100%;
-		position: relative;
-		left: 25px;
-	}	
-
-	.portfolio-p5{
-		position: absolute;
-		right: 25px;
-		bottom: 50px;
-	}
-
-	.img5{
-		position: relative;
-		float: left;
-		right: 25px;
-	}
-
-	.insideimg5{
-		width:100%;
-		height: 100%;
-		position: relative;
-		left: 25px;
-	}	
 }
 
 /*
@@ -204,7 +135,7 @@
 ================================================
 */
 
-@media screen and (max-width: 768px){
+@media screen and (min-width:641px) and (max-width: 768px){
 	.topbar, .topborderbar, .midbar, .copyrightbar{
 		width: 100%;
 	}
@@ -229,15 +160,15 @@
 	}
 
 	.connect-box{
-		width: 95%;
-		float: left;
+		width: 680px;
 		margin-top: 50px;
+		float: left;
 	}
 
 	.connect-header{
-		float:left
-		width:100%;
 		text-align: left;
+		width:100%;
+		float:left;
 	}
 
 	.imgc1, .imgc2, .imgc3{
@@ -250,53 +181,69 @@
 		padding-left: 0;
 	}
 
+	.connect-images{
+		width:100%;
+		height:100%;
+		margin: auto;
+	}
+
 /*
 ================================================
 		Portfolio adjustments for 786px.
 ================================================
 */
 	.portfolio-box{
-		width:95%;
+		width: 680px;
+		height: 1150px;
+	}
+	
+	.portfolio-box img{
+		width: 325px;
+		height: 325px;
+		position: relative;
+		top: 25px;
+		right: 25px;
 	}
 
 	.insideimg1{
-		width: 47%;
-		height: 150px;
+		width: 325px;
 		float:left;
 		position: relative;
 	}
 
 	.insideimg2{
-		width: 47%;
-		height: 150px;
-		top: -30px;
+		width: 325px;
+		left: 25px;
 		float: right;
 		position: relative;
 	}
 
-	.insideimg3{
-		width: 47%;
-		height: 150px;
-		margin-top: 125px;
+	.insideimg3, .insideimg5{
+		width: 325px;
+		margin-top: 200px;
 		float:left;
 		position: relative;
 	}
 
 	.insideimg4{
-		width: 47%;
-		height: 150px;
-		margin-top: 85px;
+		width: 325px;
+		margin-top: 200px;
 		float:right;
 		position: relative;
+		left: 25px;
 	}
 
-	.insideimg5{
-		width: 47%;
-		height: 150px;
-		margin-top: 125px;
-		float:left;
-		position: relative;
+	.p-sizing{
+		color: white;
+		font-weight: bold;
+		font-size: 1.5em;
+		padding: 25px 0;
+		position: absolute;
+		top: 225px;
+		right: 25px;
 	}
+
+}
 
 /*
 ================================================
@@ -318,80 +265,84 @@
 ================================================
 */
 
-
-}
-
 @media screen and (max-width: 640px){
-	.topborderbar, .copyrightbar{
-		width: 100%;
+	.topbar, .topborderbar, .top-line{
+	width: 100%;
 	}
 
-	.topbar header{
-		margin-left: 0;
-		margin-right: 0;
-	}
-
-	.midbar{
-		float:left;
-		width: 100%;
-	}
-	.about-me-box{
-		width: 100%;
-	}
-
-	.about-me-box p {
-		line-height: 200%;
-	}
-
-	.topbar{
-		width: 70%;
-		height: 80%;
-		background: black;
-		padding: 0;
-		margin: 0;
-	} 
-	.name{
-		width: 70%;
-		padding: 0;
-		margin: auto;
+	.top-line h1{
 		text-align: center;
+		width:100%;
+		padding: 28px 0 27px 0;
 		position: static;
 	}
 
-	.about-tab{
-		width: 27%;
-		background: blue;
-		text-align: center;
+	.top-line a{
 		float:right;
 		position: static;
 	}
+
 	.contact-tab{
-		width: 27%;
-		background: red;
 		text-align: center;
-		float:right;
-		position: static;
+		background: white;
+		width: 30.1%;
 	}
 
 	.portfolio-tab{
-		width: 33%;
-		background: green;
 		text-align: center;
-		float:right;
-		position: static;
+		background: white;
+		width: 30.1%;
 	}
 
-	.topborderbar{
+	.about-tab{
+		text-align: center;
+		background: white;
+		width: 30.1%;
+	}
+	.midbar{
 		width: 100%;
+	}
+	
+	.container{
+		width: 100%;
+		margin-top: 80px;
+		padding-bottom: 10px;
+		float:left;
+	}
+	.about-me-box{
+		width: 88%;
+		margin-left: 18px;
+		clear: both;
+	}
+	
+	.about-me-box p{
+		line-height: 200%;
 	}
 
 	.profile-pic{
+		width: 100%;
+		height: 100%;
+		margin: 15px 0;
+		padding: 0;
+	}
+
+
+	.connect-box{
+		width: 88%;
+		margin-left: 18px;
+		margin-top: 40px;
+		float: left;
+	}
+
+	.connect-header{
+		text-align: left;
 		width:100%;
+		float:left
 	}
 
 	.imgc1, .imgc2, .imgc3{
-		width: 50px;
-		height: 50px;
+		width: 75px;
+		height: 75px;
 		float: left;
 	}
 
@@ -399,4 +350,94 @@
 		padding-left: 0;
 	}
 
+	.connect-images{
+		width:100%;
+		height:100%;
+		margin: auto;
+	}
+
+	.copyrightbar{
+		width: 100%;
+	}
+
+	.copyright{
+		text-align: center;
+		width: 88%;
+	}
+
+/*	
+================================================
+		Portfolio adjustments for 640px.
+================================================
+*/
+
+	.portfolio-box{
+		width: 88%;
+		height: 900px;
+		margin-left: 18px;
+		clear: both;
+	}
+	
+	.portfolio-box img{
+		width: 250px;
+		height: 250px;
+		position: relative;
+		top: 25px;
+		right: 25px;
+	}
+
+	.insideimg1{
+		width: 250px;
+		float:left;
+		position: relative;
+	}
+
+	.insideimg2{
+		width: 250px;
+		left: 25px;
+		float: right;
+		position: relative;
+	}
+
+	.insideimg3{
+		width: 250px;
+		margin-top: 120px;
+		float:left;
+		position: relative;
+	}
+
+	.insideimg4{
+		width: 250px;
+		margin-top: 125px;
+		float:right;
+		position: relative;
+		left: 25px;
+	}
+
+	.insideimg5{
+		width: 250px;
+		margin-top: 125px;
+		float:left;
+		position: relative;
+	}
+
+	.p-sizing{
+		font-size: 1.5em;
+		font-weight: bold;
+		color: white;
+		padding: 10px 0;
+		position: absolute;
+		top: 200px;
+		right: 25px;
+	}
+
 }
+/*
+================================================
+================================================
+
+		    	End of 640px.
+
+================================================
+================================================
+*/

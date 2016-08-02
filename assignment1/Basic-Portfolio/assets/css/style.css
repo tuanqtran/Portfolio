@@ -334,7 +334,6 @@ p{
 	float: left;
 	top: 25px;
 	z-index: 9000;
-	overflow: auto;
 }
 
 .portfolio-box h1{
@@ -349,6 +348,8 @@ p{
 
 .portfolio-box p{
 	margin: 15px 0 5px;
+	font-weight: bold;
+	color: white;
 }
 
 .portfolio-box img{
