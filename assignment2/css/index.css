@@ -1,0 +1,96 @@
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+.navbar-custom .navbar-brand {
+    color: white;
+    border: none;
+}
+
+.navbar-custom .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #91D2FA;
+}
+
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover {
+    color: #91D2FA;
+    outline: 0;
+}
+
+.navbar-custom .navbar-nav>.active>a:focus, .navbar-custom .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgba(145,210,250,.9);
+}
+
+.navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover {
+     color: white; 
+}
+
+.btn-xl.active, .btn-xl:active, .btn-xl:focus, .btn-xl:hover, .open .dropdown-toggle.btn-xl {
+    background-color: rgba(145,210,250,.3);
+    border-color: #91D2FA;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(145,210,250,.3);
+}
+
+.btn-xl {
+    /*color: #fff;*/
+    background: rgba(0,0,0,.3);
+}
+
+.timeline>li .timeline-image {
+    background-color: rgba(255,255,255,.3);
+    color: black;
+}
+
+.timeline-image h5{
+	margin-top: 25%;
+}
+
+::selection {
+    text-shadow: none;
+    background: #91D2FA; 
+}
+
+
+.team-member img{
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.team-member img:hover{
+  -webkit-filter: brightness(125%);	
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+     background-color: rgba(51,143,255,.7);
+}
+
+.text-primary, a {
+    color: black;
+}
+
+a.active, a:active, a:focus, a:hover {
+    color: #91D2FA;
+}
+
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+     background-color: rgba(145,210,250,.3);
+}
