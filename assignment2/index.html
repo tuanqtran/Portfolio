@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -21,11 +20,11 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Theme CSS -->
+    <!-- Theme/Custom CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
 
-    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,18 +54,15 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <!-- <li> -->
-                        <!-- <a class="page-scroll" href="#services">Services</a> -->
-                    <!-- </li> -->
                     <li>
                         <a class="page-scroll" href="#about">About Me</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
-                    <!-- <li> -->
-                        <!-- <a class="page-scroll" href="#team">Team</a> -->
-                    <!-- </li> -->
+                    <li>
+                        <a class="page-scroll" href="#team">Meet Us</a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -80,55 +76,18 @@
     <!-- Header -->
     <header>
         <div class="container">
+        	<!-- Video Background -->
             <video autoplay loop muted poster="screenshot.jpg" id="background">
                 <source src="img/video-background.mov" type="video/mp4">
             </video>
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To My Page</div>
-                <div class="intro-heading">Can you find the hidden image?</div>
+                <div class="intro-heading">Can you find all 3 hidden images?</div>
                 <a href="#about" class="page-scroll btn btn-xl">Click to start</a>
             </div>
         </div>
     </header>
 
-    <!-- Services Section -->
-<!--    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-            </div>
-        </div>
-    </section>
--->
     <!-- About Section -->
     <section id="about">
         <div class="container">
@@ -212,6 +171,13 @@
                             </div>
                         </li>
                     </ul>
+        			<!-- Hidden Image -->
+        			<div class="hidden-container">
+        				<a href="#">
+        					<span class="hidden-block3"></span>
+            				<img src="img/logos/hidden-img3.jpg" class="img-responsive img-centered hidden-img3" alt="">
+        				</a>
+            		</div>
                 </div>
             </div>
         </div>
@@ -229,12 +195,12 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
+                        <div class="portfolio-hover topcurves">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/pokemon-go-port.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/pokemon-go-port.png" class="img-responsive topcurves" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Git Demo</h4>
@@ -243,12 +209,12 @@
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
+                        <div class="portfolio-hover topcurves">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/hw1-port.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/hw1-port.png" class="img-responsive topcurves" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Week 1</h4>
@@ -257,12 +223,12 @@
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
+                        <div class="portfolio-hover topcurves">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/hw2-port.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/hw2-port.png" class="img-responsive topcurves" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Week 2</h4>
@@ -271,43 +237,43 @@
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
+                        <div class="portfolio-hover topcurves">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/work-in-progress.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/work-in-progress.png" class="img-responsive topcurves" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4><br></h4>
+                        <br>
                         <p class="text-muted">To Be Continued</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
+                        <div class="portfolio-hover topcurves">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/work-in-progress2.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/work-in-progress2.png" class="img-responsive topcurves" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4><br></h4>
+                        <br>
                         <p class="text-muted">To Be Continued</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
+                        <div class="portfolio-hover topcurves">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/work-in-progress3.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/work-in-progress3.png" class="img-responsive topcurves" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4><br></h4>
+                        <br>
                         <p class="text-muted">To Be Continued</p>
                     </div>
                 </div>
@@ -315,13 +281,15 @@
         </div>
     </section>
 
-    <!-- Team Section -->
+	<!-- Space Seperator -->
+	<h2 class=size-adjuster></h2>
+
+    <!-- Meet Us Section -->
     <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="main-section-text">Meet me and my <br> SuperFantastic, <br> One of a kind, <br> Family!</h2>
-                    <!-- <h3 class="section-text-edit">July 18th Coding Bootcamp Cohert</h3> -->
                 </div>
             </div>
           <div class="row">
@@ -331,50 +299,43 @@
                         <h4>Tuan Tran</h4>
                         <p class="text-muted">UT Coding Student</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/tranqtuan"><i class="fa fa-linkedin"></i></a>
-                            <li><a href="https://github.com/tuantran1122"><i class="fa fa-github"></i></a>
+                            <li>
+                            	<a href="https://www.linkedin.com/in/tranqtuan"><i class="fa fa-linkedin"></i></a>
                             </li>
+                            <li>
+                            	<a href="https://github.com/tuantran1122"><i class="fa fa-github"></i></a>
                             </li>
-                            <li><a href="https://twitter.com/TuanTran1122"><i class="fa fa-twitter"></i></a>
+                            <li>
+                            	<a href="https://twitter.com/TuanTran1122"><i class="fa fa-twitter"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
-
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/milo.jpg" class="img-responsive img-circle" alt="">
                         <h4>Milo</h4>
                         <p class="text-muted">Sugar Glider</p>
-                       <!-- <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                        </ul>-->
                     </div> 
-                </div>
-
-                
+                </div> 
                 <div class="col-sm-4">
-                <div class="team-member">
+                	<div class="team-member">
                         <img src="img/team/heather.jpg" class="img-responsive img-circle" alt="">
                         <h4>Heather Phan</h4>
                         <p class="text-muted">Social Media &amp; Digital Marketer</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="linkedin.com/in/heathertphan"><i class="fa fa-linkedin"></i></a>
+                            <li>
+                            	<a href="linkedin.com/in/heathertphan"><i class="fa fa-linkedin"></i></a>
                             </li>
-                            <li><a href="https://www.instagram.com/heather.tp/"><i class="fa fa-instagram"></i></a>
+                            <li>
+                            	<a href="https://www.instagram.com/heather.tp/"><i class="fa fa-instagram"></i></a>
                             </li>
-                            <li><a href="https://twitter.com/HeatherTPhan"><i class="fa fa-twitter"></i></a>
+                            <li>
+                            	<a href="https://twitter.com/HeatherTPhan"><i class="fa fa-twitter"></i></a>
                             </li>
                         </ul>
                     </div>
-
                 </div>
-
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -386,35 +347,21 @@
         </div>
     </section>
 
-    <!-- Clients Aside -->
+    <!-- Hidden Image Aside -->
     <aside class="clients">
         <div class="container">
             <div class="row">
             	<div class="size-adjuster">
-                	<div class="col-md-12 random">
-                    	<a href="#">
-                        	<img src="img/logos/hidden-img.jpg" class="img-responsive img-centered" alt="">
-                    	<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
-                    	</a>
+                	<div class="col-md-12">
+                		    <!-- Hidden Image -->
+                		<div class="hidden-container">
+                    		<a href="#">
+                    			<span class="hidden-block"></span>
+                        		<img src="img/logos/hidden-img.jpg" class="img-responsive img-centered hidden-img" alt="">
+                    		</a>
+                    	</div>
                 	</div>
                 </div>
-                <!--
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                -->
             </div>
         </div>
     </aside>
@@ -425,7 +372,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Interested?</h2>
-                    <h3 class="section-contact-edit">Fill out the form to contact me below.</h3>
+                    <h3 class="section-contact-edit">Fill out the form below to contact me.</h3>
                 </div>
             </div>
             <div class="row">
@@ -472,19 +419,24 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        <li>
+                           	<a href="https://www.linkedin.com/in/tranqtuan"><i class="fa fa-linkedin"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        <li>
+                           	<a href="https://github.com/tuantran1122"><i class="fa fa-github"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li>
+                           	<a href="https://twitter.com/TuanTran1122"><i class="fa fa-twitter"></i></a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        <li>
+                        	<a href="#">Privacy Policy</a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li>
+                        	<a href="#">Terms of Use</a>
                         </li>
                     </ul>
                 </div>
@@ -493,7 +445,6 @@
     </footer>
 
     <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -511,24 +462,27 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Git Demo Assignment</h2>
+                                
                                 <p class="item-intro text-muted">HTML Instructions</p>
+                                
                                 <img class="img-responsive img-centered" src="img/portfolio/pokemon-go.png" alt="">
+                                
                                 <p>In this assignment, I was task to build a basic HTML page.</p>
+                                
                                 <p>
-                                    <strong>Click the link below to find my Github code.</strong>
+                                	<strong>Click the link below to find my Github code.</strong>
                                     <br>
                                     <a class="port-a-color" href="https://github.com/tuantran1122/git-demo">Github Link</a>
                                 </p>
-
+                                
                                 <ul class="list-inline">
                                     <li>Date: July 20, 2016</li>
                                     <li>Pre-work: Git Demo</li>
-                                    <br>
                                     <li>Category: HTML/GitHub</li>
                                 </ul>
+                                
                                 <button type="button" class="btn btn-primary" data-dismiss="modal">
                                 <i class="fa fa-times"></i> Close Project</button>
-
                             </div>
                         </div>
                     </div>
@@ -549,27 +503,41 @@
                 </div>
                 <div class="container">
                     <div class="row">
+                    	<!-- Hidden Image -->
+                    	<div class="hidden-container">
+                            <a href="#">
+                    			<span class="hidden-block2"></span>
+                        		<img src="img/logos/hidden-img2.jpg" class="img-responsive img-centered hidden-img2" alt="">
+                    		</a>
+                    	</div>
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Week 1 Assignment</h2>
+                                
                                 <p class="item-intro text-muted"><strong>Building a Wireframe<br>(Easier)</strong></p>
+                                
                                 <img class="img-responsive img-centered" src="img/portfolio/hw1-easier.png" alt="">
+                                
                                 <p>In this assignment, I was task to build a web design skeleton using HTML/CSS.</p>
+                                
                                 <p>
                                     <strong>Click the link below to find my Github code.</strong>
                                     <br>
                                     <a class="port-a-color" href="https://github.com/tuantran1122/HW-Wireframe">Github Link</a>
-                                </p>
-
+                                </p>                  
+                                
                                 <ul class="list-inline">
                                     <li>Date: July 23, 2016 - July 30, 2016</li>
                                     <li>Homework: Assignment 1 (Easier)</li>
-                                    <br>
                                     <li>Category: HTML/CSS</li>
                                 </ul>
+                                
                                 <p class="item-intro text-muted"><strong>That Portfolio Though...<br>(Recommended)</strong></p>
+                                
                                 <img class="img-responsive img-centered" src="img/portfolio/hw1.png" alt="">
+                                
                                 <p>In this assignment, I was task to build a professional portfolio site using HTML/CSS. These instructions include a short style guide; follow it to design an aesthetically pleasing layout while creating different kinds of complex HTML elements.</p>
+                                
                                 <p>
                                     <strong>Click the link below for a more interactive website along with a link to my Github code.</strong>
                                     <br>
@@ -577,14 +545,13 @@
                                     <br>
                                     <a class="port-a-color" href="https://github.com/tuantran1122/Basic-Portfolio">Github Link</a>
                                 </p>
-
-
+                    
                                 <ul class="list-inline">
                                     <li>Date: July 23, 2016 - July 30, 2016</li>
                                     <li>Homework: Assignment 1 (Recommended)</li>
-                                    <br>
                                     <li>Category: HTML/CSS/GitHub/Heroku</li>
                                 </ul>
+                                
                                 <button type="button" class="btn btn-primary" data-dismiss="modal">
                                 <i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -611,11 +578,13 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Week 2 Assignment</h2>
+                                
                                 <p class="item-intro text-muted"><strong>Part 1 - (No Bootstrap)</strong></p>
+                                
                                 <img class="img-responsive img-centered" src="img/portfolio/hw2.png" alt="">
-                                <p>
-                                In this assignment, I was task to make two different portfolios. The first is an update of the one I made in the last class--I'll enhance with a mobile-responsive layout. Then I'll make a second portfolio, this time with Bootstrap.
-                                </p>
+                                
+                                <p>In this assignment, I was task to make two different portfolios. The first is an update of the one I made in the last class--I'll enhance with a mobile-responsive layout. Then I'll make a second portfolio, this time with Bootstrap.</p>
+                                
                                 <p>
                                 	<strong>Click the link below for a more interactive website along with a link to my Github code.</strong>
                                     <br>
@@ -623,11 +592,13 @@
                                     <br>
                                     <a class="port-a-color" href="https://github.com/tuantran1122/Portfolio/tree/master/assignment1/Basic-Portfolio">Github Link</a>
                                 </p>
+                                
                                 <p class="item-intro text-muted"><strong>Part 2 - (With Bootstrap)</strong></p>
+                                
                                 <img class="img-responsive img-centered" src="img/portfolio/hw2-p2.png" alt="">
-                                <p>
-                                In this assignment, I was task to make two different portfolios. The first is an update of the one I made in the last class--I'll enhance with a mobile-responsive layout. Then I'll make a second portfolio, this time with Bootstrap.
-                                </p>
+                                
+                                <p>In this assignment, I was task to make two different portfolios. The first is an update of the one I made in the last class--I'll enhance with a mobile-responsive layout. Then I'll make a second portfolio, this time with Bootstrap.</p>
+                                
                                 <p>
                                 	<strong>Click the link below for a more interactive website along with a link to my Github code.</strong>
                                     <br>
@@ -636,11 +607,9 @@
                                     <a class="port-a-color" href="https://github.com/tuantran1122/Portfolio/tree/master/assignment2">Github Link</a>
                                 </p>
 
-
                                 <ul class="list-inline">
                                     <li>Date: July 29, 2016 - August 6, 2016</li>
                                     <li>Homework: Assignment 2</li>
-                                    <br>
                                     <li>Category: HTML/CSS/GitHub/Heroku/Bootstrap</li>
                                 </ul>
 
@@ -669,9 +638,13 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Work in Progress</h2>
+                                
                                 <p class="item-intro text-muted">Nothing Here =P</p>
+                                
                                 <img class="img-responsive img-centered" src="img/portfolio/work-in-progress.png" alt="">
+                                
                                 <p>Content will be added in the future.</p>
+                                
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -697,9 +670,13 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Work in Progress</h2>
+                                
                                 <p class="item-intro text-muted">Sorry buddy. Nothing here.</p>
+                                
                                 <img class="img-responsive img-centered" src="img/portfolio/work-in-progress2.png" alt="">
+                                
                                 <p>Content will be added in the future.</p>
+                                
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -725,9 +702,13 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Work in Progress</h2>
+                                
                                 <p class="item-intro text-muted">Nada</p>
+                                
                                 <img class="img-responsive img-centered" src="img/portfolio/work-in-progress3.png" alt="">
+                                
                                 <p>Content will be added in the future.</p>
+                                
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>

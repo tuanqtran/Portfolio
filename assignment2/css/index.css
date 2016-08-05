@@ -1,11 +1,26 @@
+/*
+================================================
+================================================
+
+    	  Start of CSS alternation page.
+
+================================================
+================================================
+
+***    ***    ***              ***    ***    ***
+
+================================================
+	This contains the video background img.
+================================================
+*/
 #background {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
     position: fixed;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
@@ -13,6 +28,11 @@
     background-size: cover;
 }
 
+/*
+================================================
+	   Custom changes to the navbar page.
+================================================
+*/
 .navbar-custom .navbar-brand {
     color: white;
     border: none;
@@ -43,6 +63,17 @@
      color: white; 
 }
 
+/*
+================================================
+          Provides opacity coloring to
+                drop down menu.
+================================================
+*/
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:hover {
+     background-color: rgba(185,87,23,.3);
+}
+
 .btn-xl.active,
 .btn-xl:active,
 .btn-xl:focus,
@@ -52,29 +83,35 @@
     border-color: white;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    background: rgba(185,87,23,.3);
-}
-
 .btn-xl {
     background: rgba(0,0,0,.3);
 }
 
-.timeline>li .timeline-image {
-    background-color: rgba(255,255,255,.3);
-    color: black;
+/*
+================================================
+	      Custom changes to portfolio.
+================================================
+*/
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(185,87,23,.3);
 }
 
-.timeline-image h5{
-	margin-top: 25%;
-}
-
+/*
+================================================
+			Burnt Orange Highlight.
+================================================
+*/
 ::selection {
     text-shadow: none;
     background: #B94917; 
 }
 
-
+/*
+================================================
+       Increases the brightness of the
+          family images upon hover.
+================================================
+*/
 .team-member img{
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -87,29 +124,36 @@
   -webkit-filter: brightness(125%);	
 }
 
+/*
+================================================
+       Provides light orange coloring
+             to social buttons.
+         (Linkedin, Github, Twitter)
+================================================
+*/
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
      background-color: rgba(185,87,23,.7);
 }
 
-.text-primary, a {
-    color: black;
-}
-
-a.active,
+/*
+================================================
+       Provides burnt orange coloring
+            to privacy/term links.
+================================================
+*/
 a:active,
 a:focus,
 a:hover {
     color: #B94917;
 }
 
-.navbar-custom .navbar-toggle:focus,
-.navbar-custom .navbar-toggle:hover {
-     background-color: rgba(185,87,23,.3);
-}
-
-
+/*
+================================================
+       		   About me color font.
+================================================
+*/
 section h2.section-heading,
 section h3.section-subheading,
 .timeline .timeline-heading h4,
@@ -117,106 +161,73 @@ section h3.section-subheading,
     color: black;
 }
 
+/*
+================================================
+   			   Main section changes.
+================================================
+*/
 .main-section-text{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 40px;
+    font-weight: 700;   
+    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 15px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;   
 }
 
 .section-text-edit, .section-contact-edit{
-    font-size: 16px;
-    text-transform: none;
-    font-weight: 400;
-    margin-bottom: 75px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     font-style: italic;
+    text-transform: none;
+    margin-bottom: 75px;
 }
 
 .section-contact-edit{
     color: white;
 }
 
+/*
+================================================
+   	    Footer/Copyright font coloring.
+================================================
+*/
 footer span.copyright,
 .text-primary,
 a{
     color: white;
 }
 
+/*
+================================================
+   	    Top curves to the main portfolio
+   	             image and hover.
+================================================
+*/
+.topcurves{
+	border-top-left-radius: 15%;
+	border-top-right-radius: 15%;
+}
+
+/*
+================================================
+   	     Portfolio link font coloring.
+================================================
+*/
 .port-a-color{
     color: black;
 }
 
 .portfolio-modal .modal-content {
     background-color: rgba(255,255,255,.8);
-
 }
 
-.size-adjuster{
-    width: 100%;
-    height:250px;
-}
-
-.random img{
-    position: relative;
-    float: right;
-    width: 250px;
-    height: 200px;
-    opacity: 0;
-    -webkit-transition: all 2.5s ease;
-    -moz-transition: all 2.5s ease;
-    -o-transition: all 2.5s ease;
-    -ms-transition: all 2.5s ease;
-    transition: all 2.5s ease;
-}
-
-.random img:hover{
-    opacity: 1;
-    position: relative;
-    z-index: 9000;
-}
-
-@media screen and (min-width:769px) and (max-width:980px){
-    .random img{
-        width: 200px;
-        height:150px;
-    }
-
-    .random img:hover{
-        opacity: 1;
-        position: relative;
-        z-index: 9000;
-    }
-}
-
-@media screen and (min-width:641px) and (max-width: 768px){
-    .random img{
-        width: 175px;
-        height:125px;
-    }
-
-    .random img:hover{
-        opacity: 1;
-        position: relative;
-        z-index: 9000;
-    }
-}
-
-@media screen and (max-width: 640px){
-    .random img{
-        width: 150px;
-        height: 100px;
-    }
-
-    .random img:hover{
-        opacity: 1;
-        position: relative;
-        z-index: 9000;
-    }
-}
-
+/*
+================================================
+    Coloring of close button for Portfolio.
+================================================
+*/
 .btn-primary {
     background-color: rgba(0,0,0,.6);
 }
@@ -225,3 +236,389 @@ a{
     background-color: rgba(185,87,23,.8);
   
 }
+
+/*
+================================================
+          Space adjustment for page.
+================================================
+*/
+.size-adjuster{
+    width: 100%;
+    height: 250px;
+}
+
+/*
+================================================
+================================================
+
+	   Start of the hidden images search.
+
+================================================
+================================================
+*/
+.hidden-block{
+    padding: 50px;
+    position: relative;
+    float: right;
+    top: 100px;
+}
+
+.hidden-img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: -150px;
+    top: -25px;
+    opacity: 0;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+    transition-delay: 1s;
+}
+
+.hidden-block:hover + .hidden-img{
+    top: -25px;
+    left: 0px;
+    opacity: 1;
+}
+
+.hidden-img:hover{
+    cursor: default;
+}
+
+.hidden-block2{
+    padding: 0;
+}
+
+.hidden-img2{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+
+.hidden-block3{
+    padding: 50px;
+    position: absolute;
+    float: left;
+    left: 15%;
+}
+
+.hidden-img3{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    right: 40px;
+    bottom: 0px;
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    transition-delay: 1s;
+}
+
+.hidden-block3:hover + .hidden-img3{
+    border-radius: 50%;
+    position: absolute;
+    right: 40px;
+    bottom: 0px;
+    opacity: 1;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    z-index: 9500;
+}
+
+.hidden-img3:hover{
+    cursor: default;
+}
+
+/*
+================================================
+================================================
+
+         Beginning of Media Queries for
+            hidden images 980px-769px
+
+================================================
+================================================
+*/
+@media screen and (min-width:769px) and (max-width:980px){
+    .hidden-block{
+        padding: 40px;
+        position: relative;
+        float: right;
+        top: 100px;
+    }
+    .hidden-img{
+        width: 200px;
+        height:150px;
+        left: -75px;
+        top: -10px;
+    }
+
+    .hidden-block:hover + .hidden-img{
+        top: -10px;
+        left: 0px;
+        opacity: 1;
+    }
+
+    .hidden-block2{
+        padding: 50px;
+        position: absolute;
+        float: right;
+        right: 15%;
+        z-index: 9500;
+    }
+   
+    .hidden-img2{
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        opacity: 0;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+        transition-delay: 1s;
+    }
+
+    .hidden-block2:hover + .hidden-img2{
+        width: 200px;
+        height:150px;
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        opacity: 1;
+        z-index: 9500;
+    }
+
+    .hidden-block3{
+        padding: 40px;
+        position: relative;
+        float: left;
+    }
+    .hidden-img3{
+        width: 200px;
+        height:150px;
+    }
+
+    .hidden-block3:hover + .hidden-img3{
+        opacity: 1;
+    }
+}
+
+/*
+================================================
+================================================
+
+         End of Media Queries for hidden
+               images 980px-769px.
+
+================================================
+================================================
+
+***    ***    ***              ***    ***    ***
+
+================================================
+================================================
+
+        Start of Media Queries for hidden
+        	   images 768px-641px.
+
+================================================
+================================================
+*/
+@media screen and (min-width:641px) and (max-width: 768px){
+    .hidden-block{
+        padding: 30px;
+        position: relative;
+        float: right;
+        top: 100px;
+    }
+
+    .hidden-img{
+        width: 175px;
+        height:125px;
+        top: 0px;
+        left: -55px;
+    }
+
+    .hidden-block:hover + .hidden-img{
+        top: 0px;
+        left: 15px;
+        opacity: 1;
+    }
+
+    .hidden-block2{
+        padding: 50px;
+        position: absolute;
+        float: right;
+        right: 5%;
+        z-index: 9500;
+    }
+   
+    .hidden-img2{
+        width: 0px;
+        height:0px;
+        position: absolute;
+        top: 80px;
+        left: 15px;
+        opacity: 0;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+        transition-delay: 1s;
+    }
+
+    .hidden-block2:hover + .hidden-img2{
+        width: 175px;
+        height:125px;
+        position: absolute;
+        top: 80px;
+        left: 15px;
+        opacity: 1;
+        z-index: 9500;
+    }
+
+    .hidden-block3{
+        padding: 40px;
+        position: relative;
+        float: left;
+    }
+    .hidden-img3{
+        width: 175px;
+        height:125px;
+    }
+
+    .hidden-block3:hover + .hidden-img3{
+        opacity: 1;
+    }
+}
+
+/*
+================================================
+================================================
+
+         End of Media Queries for hidden
+               images 768px-641px.
+
+================================================
+================================================
+
+***    ***    ***              ***    ***    ***
+
+================================================
+================================================
+
+        Start of Media Queries for hidden
+        	      images 640px.
+
+================================================
+================================================
+*/
+@media screen and (max-width: 640px){
+    .hidden-block{
+        padding: 20px;
+        position: relative;
+        float: right;
+        top: 100px;
+    }
+    .hidden-img{
+        width: 150px;
+        height: 100px;
+        top: 20px;
+    }
+
+    .hidden-block:hover + .hidden-img{
+        top: 20px;
+        left: 30px;
+        opacity: 1;
+    }
+
+    .hidden-block2{
+        padding: 50px;
+        position: absolute;
+        float: right;
+        right: 5%;
+        z-index: 9500;
+    }
+   
+    .hidden-img2{
+        width: 0px;
+        height:0px;
+        position: absolute;
+        top: 60px;
+        left: 10px;
+        opacity: 0;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+        transition-delay: 1s;
+    }
+
+    .hidden-block2:hover + .hidden-img2{
+        width: 150px;
+        height: 100px;
+        position: absolute;
+        top: 60px;
+        left: 10px;
+        opacity: 1;
+        z-index: 9500;
+    }
+
+    .hidden-block3{
+        padding: 40px;
+        position: relative;
+        float: left;
+    }
+    .hidden-img3{
+        width: 150px;
+        height: 100px;
+    }
+
+    .hidden-block3:hover + .hidden-img3{
+        opacity: 1;
+    }
+}
+/*
+================================================
+================================================
+
+        End of Media Queries for hidden
+        	     images 640px.
+
+================================================
+================================================
+
+***    ***    ***              ***    ***    ***
+
+================================================
+================================================
+
+        End of the hidden images search.
+
+================================================
+================================================
+
+***    ***    ***              ***    ***    ***
+
+================================================
+================================================
+
+    	  End of CSS alternation page.
+
+================================================
+================================================
