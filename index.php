@@ -1,3 +1,3 @@
 <?php 
-include_once("assignment2/index.html"); 
+include_once("assignment1/index.html"); 
 ?>
